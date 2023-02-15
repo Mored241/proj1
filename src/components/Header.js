@@ -16,21 +16,21 @@ export default function Header() {
                   <a className="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">Link</a>
+                  <a className="nav-link" href="/">Store</a>
                 </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                    More
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a className="dropdown-item" href="/">Action</a></li>
-                    <li><a className="dropdown-item" href="/">Another action</a></li>
+                    <li><a className="dropdown-item" href="/">Account</a></li>
+                    <li><a className="dropdown-item" href="/">Wishlist</a></li>
                     <li><hr className="dropdown-divider"/></li>
-                    <li><a className="dropdown-item" href="/">Something else here</a></li>
+                    <li><a className="dropdown-item" href="/">Checkout</a></li>
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link disabled" href="/" tabIndex="-1" aria-disabled="true">Disabled</a>
+                  <a className="nav-link disabled" href="/" tabIndex="-1" aria-disabled="true">Contact</a>
                 </li>
               </ul>
               <form className="d-flex">
