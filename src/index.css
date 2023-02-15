@@ -1,0 +1,62 @@
+/* Google Font Josefin Slab */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+/* Zeyada font */
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+/* Font: Comfortaa and Dancing Script */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script&display=swap');
+/* Bootstrap Icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+#root{
+    border: 0;
+    background-color: brown;
+}
+:root{
+    --theme-border: #1445fe;
+    --button-shadow: grey;
+    --bkg-component: #141818;
+    --color-white: aliceblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', 'Dancing Script', 'Zeyada', 'Josefin Slab';
+}
+
+/* Link - a */
+a{
+    text-decoration: none;
+    color: black;
+}
+/* List */
+li{
+    list-style: none;
+}
+
+/* Button */
+button{
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: darkslateblue;
+    color: var(--color-white);
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+button:active{
+    background-color: rgb(82, 70, 157);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer{
+    padding: 10px 0;
+    text-align: center;
+    color: var(--color-white);
+    background-color: var(--bkg-component);
+    font-size: 1rem;
+    position: sticky;
+}
+
